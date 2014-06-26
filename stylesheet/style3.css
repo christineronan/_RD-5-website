@@ -1,0 +1,110 @@
+nav.left{
+	padding:1em;
+	display:inline-block;
+	width:12%;
+	height:670px;
+	}
+nav.top{
+	display:none;
+	}
+h1{
+	font-family: 'Aldrich', sans-serif;
+	font-size: 1.2em;
+	letter-spacing:2px;
+	}
+h2{
+	font-size: .9em;
+	font-family: 'Aldrich', sans-serif;
+	margin-bottom: 1em;
+}
+h3{
+	font-family: 'Aldrich', sans-serif;
+	font-size: .5em;
+	text-align:left;
+	margin-top:1em;
+	margin-bottom:1em;
+	}
+p{
+	font-family: "georgia" serif;
+	font-style: italic;
+	margin-bottom:2em;
+	}
+
+.logo{
+	width:80%;
+	height:auto;
+	margin:;
+	}
+
+article{
+	display:block;
+	vertical-align:top;
+	width:80%;
+	float:right;
+	}
+article.div{
+	margin:auto;
+	width:100%;
+	padding:0em 0em 1em 1em;
+	box-sizing: border-box;
+	}
+article.img{
+	width:80%;
+	padding:1em;
+	box-sizing: border-box;
+	}
+ul{
+	display:inline-block;
+	font-family: "georgia" serif;
+	vertical-align:top;
+	margin-top:6px;
+	padding-left: 2em;
+	line-height: 2em;
+	}
+article.about{
+	display:inline-block;	
+	width:80%;
+	font-family: "georgia" serif;
+	padding:1em;
+	line-height: 2em;
+	text-align:left;
+	}
+
+
+
+@media only screen and (max-width: 767px) {
+		/* phones */
+nav.left{
+	display:none;
+	}
+div.top-logotype{
+	display:inline-block;
+	margin-top:-10px;
+	}
+nav.top-logo{
+	display:inline-block;
+	}
+
+nav.top{
+	display:inline-block;
+	padding-left:1em;
+	}
+article{
+	display:block;
+	vertical-align:top;
+	width:100%;
+	}
+p.top{
+	font-family: "georgia" serif;
+	font-style: italic;
+	width:350px;
+	margin-bottom:1em;
+	}
+h2.top{
+	display:inline-block;
+	color:#9383c1;
+	padding: 0em 2em 0em 0em;
+	}
+ul{
+	display:block;
+	}
